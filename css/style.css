@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+nav{
+    background-color: rgba(0,0,0, 0.6);
+    height: 105px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+nav ul{
+    float: right;
+    margin-right: 80px;
+    margin-top: 40px;
+}
+
+nav ul li{
+    float: left;
+    list-style-type: none;
+    color: white;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+li a{
+    color: white;
+}
+
+nav li a:hover {
+    color: #57b55f;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    color: white;
+    padding-top: 350px;
+    padding-left: 500px;
+    background-image: url("../img/bkg1.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 300px;
+
+}
+
+.logo{
+    width: 175px;
+    margin-left: 200px;
+    margin-top: 25px;
+}
+
+.slogan{
+    font-size: 97px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+}
+
+.btn{
+    color: white;
+    border-radius: 50px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 0;
+}
+
+.btn-verde{
+    background-color: #57b55f;
+    width: 470px;
+    margin-right: 5px;
+}
+
+.btn-branco{
+    background-color: rgba( 0, 0, 0, 0);
+    border: 2px solid white;
+    width: 420px;
+}
+
+.btn-branco:hover{
+    background-color: white;
+    color: black;
+}
+
+.guia{
+    width: 100%;
+    opacity: 0.5;
+    z-index: -1;
+    position: absolute;
+}
+
+.div1{
+    margin-left: 137px;
+    margin-top: 149px;
+    padding-left: 5px;
+    float: left;
+
+}
+
+.div2{
+    float: left;
+    /*margin-right: 30px;*/
+    background-image: url(/img); 
+}
+
+.div2 img{
+    width: 519px;
+    margin-top: 46px;
+    margin-left: 99px;
+}
+
+.div1 span{
+    margin-bottom: 5px;
+}
+
+.h1{
+    margin-bottom: 5px;
+}
+
+.h2{
+    margin-top: 5px;
+}
+
